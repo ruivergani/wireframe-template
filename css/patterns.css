@@ -23,4 +23,22 @@ h3{
     font-size: 2.4rem;
     /* sem limite na pagina */
 }
-
+a, button{
+    display: inline-block;
+    background-color: var(--brand-colors-pink);
+    padding: 1.2rem 3.4rem;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--grey-colors-100);
+}   
+.menu-item{
+    display: inline-block;
+    background-color: var(--white-smoke-colors);
+    padding: 1.2rem 2.4rem;
+    font-family: Sora;
+    font-size: 15px;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+    color: var(--grey-colors-400);
+}

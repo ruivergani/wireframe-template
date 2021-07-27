@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
 }
 html{
     font-size: 62.5%;
@@ -16,6 +17,5 @@ img{
     display: block;
 }
 button{
-    background-color: transparent;
     cursor: pointer;
 }
