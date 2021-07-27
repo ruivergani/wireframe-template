@@ -1,0 +1,31 @@
+header{
+    width: 100%;
+    background-color: var(--grey-colors-800);
+    height: 8.8rem;
+    display: flex;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    margin-right: 3.2rem;
+}
+header nav .btn-primary{
+    padding: 0.9rem 3.4rem;
+}
+header nav ul li{
+    margin-left: 3.2rem;
+}
+header nav ul li:first-child{
+    margin-left: 0rem;
+}
+header nav ul li:last-child{
+    margin-right: 0rem;
+}

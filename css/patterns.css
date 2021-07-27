@@ -23,7 +23,7 @@ h3{
     font-size: 2.4rem;
     /* sem limite na pagina */
 }
-a, button{
+.btn-primary {
     display: inline-block;
     background-color: var(--brand-colors-pink);
     padding: 1.2rem 3.4rem;
