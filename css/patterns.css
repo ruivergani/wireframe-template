@@ -1,0 +1,26 @@
+/* Identifica padroes no website */
+
+h1, h2, h3{
+    font-family: 'Sora', sans-serif;
+    line-height: 125%;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+h1{
+    font-size: 4.8rem;
+    color: var(--grey-colors-100);
+    /* apenas 1 por pagina */
+}
+
+h2{
+    font-size: 3.2rem;
+    /* dois por section */
+}
+
+h3{
+    font-size: 2.4rem;
+    /* sem limite na pagina */
+}
+
