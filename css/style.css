@@ -1,3 +1,4 @@
+/* Style Header */
 header{
     width: 100%;
     background-color: var(--grey-colors-800);
@@ -31,4 +32,38 @@ header nav ul li:last-child{
 }
 header .menu-mobile{
     display: none;
+}
+
+/* Style Section Hero */
+section.s-hero{
+    padding: 7.2rem 0rem;
+}
+.s-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-hero .text{
+    width: 100%;
+    max-width: 64rem;
+}
+.s-hero .image{
+    width: 100%;
+    max-width: 48.8rem;
+    height: 49.6rem;
+    background-color: var(--grey-colors-800);
+}
+.s-hero .text h1{
+    margin-bottom: 2rem;
+}
+.s-hero .text p{
+    margin-bottom: 5.6rem;
+    max-width: 48.8rem;
+    color: var(--grey-colors-300);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    line-height: 150%;
+}
+.s-hero .image img{
+    margin: 0 auto;
 }
