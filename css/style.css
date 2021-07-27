@@ -29,3 +29,6 @@ header nav ul li:first-child{
 header nav ul li:last-child{
     margin-right: 0rem;
 }
+header .menu-mobile{
+    display: none;
+}
