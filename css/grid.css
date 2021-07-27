@@ -1,0 +1,6 @@
+.container{
+    width: 100%;
+    max-width: 1246px; /* 1216px content size */
+    margin: 0 auto; /* grid ao centro */
+    padding: 0px 15px; 
+}
