@@ -1,5 +1,7 @@
 @media (max-width: 1200px){
-
+    .s-hero .text{
+        max-width: 49%;
+    }
 }
 @media (max-width: 991px){
     header nav{
@@ -8,6 +10,20 @@
     header .menu-mobile{
         display: block;
     }
+    .s-hero .container{
+        flex-direction: column;
+    }
+    .s-hero .text{
+        max-width: 90%;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .s-hero .text h1, p{
+        text-align: center;
+    }
 }
 @media (max-width: 768px){
     
@@ -15,8 +31,26 @@
 @media (max-width: 600px){
     
 }
-@media (max-width: 480px){
+@media (max-width: 480px){ /* Phone Style */ 
+    html{
+        font-size: 55% !important;
+    }
     header .logo{
         max-width: 130px;
+    }
+    .s-hero{
+        padding: 4rem 0px;
+    }
+    h1{
+        font-size: 4.2rem;
+    }
+    .s-hero .text p{
+        margin-bottom: 3rem;
+    }
+    .s-hero .image{
+        height: 30rem;
+    }
+    .s-hero .image img{
+        max-width: 100px;
     }
 }
