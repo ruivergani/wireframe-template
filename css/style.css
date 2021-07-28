@@ -104,7 +104,33 @@ section.s-hero{
     width: 100%;
     max-width: 384px;
     height: 382px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6.4rem;
 }
 .s-card-featured .all-cards .card .info{
     margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 28.8rem;
+}
+.s-card-featured .all-cards .card .info h3{
+    text-align: center;
+}
+.s-card-featured .all-cards .card .info p{
+    text-align: center;
+    margin-top: 0.8rem;
+    line-height: 150%;
+}
+.s-card-featured .all-cards .card.white{
+    background-color: white;
+}
+.s-card-featured .all-cards .card.white h3{
+    color: var(--grey-colors-100);
+}
+.s-card-featured .all-cards .card.white p{
+    color: var(--grey-colors-300);
 }

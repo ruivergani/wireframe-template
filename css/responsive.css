@@ -2,6 +2,12 @@
     .s-hero .text{
         max-width: 49%;
     }
+    .s-card-featured .all-cards{
+        width: 100%;
+    }
+    .s-card-featured .all-cards .card{
+        width: 31%;
+    }
 }
 @media (max-width: 991px){
     header nav{
@@ -24,6 +30,25 @@
     .s-hero .text h1, p{
         text-align: center;
     }
+    .s-card-featured .all-cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .s-card-featured .all-cards .card{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 3rem;
+        margin-bottom: 2rem;
+    }
+    .s-card-featured .all-cards .card:last-child{
+        margin-bottom: 0rem;
+    }
+    .s-card-featured .all-cards .card .info{
+        max-width: 100%;
+        margin-top: 2rem;
+    }
 }
 @media (max-width: 768px){
     
@@ -31,6 +56,7 @@
 @media (max-width: 600px){
     
 }
+
 @media (max-width: 480px){ /* Phone Style */ 
     html{
         font-size: 55% !important;
@@ -52,5 +78,15 @@
     }
     .s-hero .image img{
         max-width: 100px;
+    }
+    .s-card-featured{
+        padding: 4rem 0rem;
+    }
+    .s-card-featured .title p{
+        max-width: 80%;
+        text-align: center;
+    }
+    .s-card-featured .main-area{
+        padding-bottom: 4rem;
     }
 }
