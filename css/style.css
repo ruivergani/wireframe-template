@@ -73,5 +73,38 @@ section.s-hero{
 
 /* Style Section Card Featured */
 .s-card-featured{
-
+    padding-top: 10.4rem;
+    padding-bottom: 12rem;
+    background-color: var(--grey-colors-100);
+}
+.s-card-featured .main-area{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.247);
+    padding-bottom: 12.5rem;
+}
+.s-card-featured .title{
+    display: flex;
+    flex-direction: column;
+}
+.s-card-featured .title p{
+    margin-top: 0.8rem;
+}
+.center{
+    align-items: center;
+}
+.s-card-featured p{
+    color: var(--white-colors-text);
+}
+.s-card-featured .all-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+}
+.s-card-featured .all-cards .card{
+    background-color: rgba(28, 29, 31, 0.5);
+    width: 100%;
+    max-width: 384px;
+    height: 382px;
+}
+.s-card-featured .all-cards .card .info{
+    margin-top: 4rem;
 }
