@@ -52,6 +52,9 @@ section.s-hero{
     max-width: 48.8rem;
     height: 49.6rem;
     background-color: var(--grey-colors-800);
+    display: flex;
+    align-items: center; /* relacao altura */
+    justify-content: center; /* relacao ao width */
 }
 .s-hero .text h1{
     margin-bottom: 2rem;
@@ -64,6 +67,6 @@ section.s-hero{
     font-size: 1.8rem;
     line-height: 150%;
 }
-.s-hero .image img{
-    margin: 0 auto;
+.s-hero .text .btn-primary{
+    padding: 1.7rem 3.7rem;
 }
