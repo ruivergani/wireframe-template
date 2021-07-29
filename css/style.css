@@ -134,6 +134,26 @@ section.s-hero{
 .s-card-featured .all-cards .card.white p{
     color: var(--grey-colors-300);
 }
+.s-card-featured .second-area{
+    margin-top: 12.2rem;
+}
+.s-card-featured .second-area .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.4rem;
+}
 .s-card-featured .second-area .all-imgs{
     display: flex;
+    flex-wrap: wrap; /* quebra o elemento baseado na width do elemento e do pai */
+    gap: 32px; /* espaco entre os elementos */
+}
+.s-card-featured .second-area .all-imgs .image{
+    background-color: var(--grey-colors-200);
+    width: 17.6rem;
+    height: 11.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
