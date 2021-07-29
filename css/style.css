@@ -134,3 +134,6 @@ section.s-hero{
 .s-card-featured .all-cards .card.white p{
     color: var(--grey-colors-300);
 }
+.s-card-featured .second-area .all-imgs{
+    display: flex;
+}
