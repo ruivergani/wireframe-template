@@ -155,5 +155,31 @@ section.s-hero{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
+/* Style Section Newsletter */
+
+.s-newsletter{
+    background-color: var(--grey-colors-200);
+    padding: 15.2rem 0px;
+}
+.s-newsletter .container{ 
+    /* porque o container envolve todo o conteudo e tem que pensar que e o ultimo elemento envolvendo o conteudo pai */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.s-newsletter .container h2{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.s-newsletter .container p{
+    text-align: center;
+    max-width: 694px;
+    color: var(--white-colors-text);
+    margin-bottom: 4rem;
+}
+.s-newsletter .container .btn-primary{
+    padding: 1.8rem 4.1rem;
 }
