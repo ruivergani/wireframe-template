@@ -245,3 +245,22 @@ footer main nav .item:last-child ul li a{
 footer main nav .item:last-child ul li a span{
     margin-left: 8px;
 }
+footer .copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+footer .copy p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    line-height: 150%;  
+    color: var(--white-colors-text);
+}
+footer .copy .group{
+    display: flex;
+}
+footer .copy .group span{
+    color: var(--white-colors-text);
+    margin-right: 0.8rem;
+}
