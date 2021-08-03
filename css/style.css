@@ -1,5 +1,7 @@
 /* Style Header */
 header{
+    position: fixed;
+    top: 0;
     width: 100%;
     background-color: var(--grey-colors-800);
     height: 8.8rem;
@@ -37,6 +39,7 @@ header .menu-mobile{
 /* Style Section Hero */
 section.s-hero{
     padding: 7.2rem 0rem;
+    margin-top: 8.8rem;
 }
 .s-hero .container{
     display: flex;
@@ -185,6 +188,7 @@ section.s-hero{
 }
 
 /* Style Footer */
+
 footer{
     background-color: var(--grey-colors-100);
     padding-top: 8.8rem;
@@ -234,6 +238,10 @@ footer main nav .item ul li a{
     font-size: 1.4rem;
     line-height: 105%;
     color: var(--white-colors-text);
+    transition: all 0.2s;
+}
+footer main nav .item ul li a:hover{
+    color: var(--white);
 }
 footer main nav .item ul li:last-child{
     margin-bottom: 0rem;
