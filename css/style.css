@@ -183,3 +183,65 @@ section.s-hero{
 .s-newsletter .container .btn-primary{
     padding: 1.8rem 4.1rem;
 }
+
+/* Style Footer */
+footer{
+    background-color: var(--grey-colors-100);
+    padding-top: 8.8rem;
+    padding-bottom: 3.9rem;
+}
+footer main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 7.2rem;
+}
+footer main .area-left{
+    max-width: 28.1rem;
+}
+footer main .area-left img{
+    padding-bottom: 3.5rem;
+    color: #FFF;
+}
+footer main .area-left p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: var(--white-colors-text);
+}
+footer main nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 77.7rem;
+}
+footer main nav .item h6{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    line-height: 125%;
+    /* identical to box height, or 20px */
+    letter-spacing: -1px;
+    color: var(--white);
+    margin-bottom: 2.4rem;
+}
+footer main nav .item ul li{
+    margin-bottom: 3.2rem;
+}
+footer main nav .item ul li a{
+    font-family: 'Sora', sans-serif;
+    font-size: 1.4rem;
+    line-height: 105%;
+    color: var(--white-colors-text);
+}
+footer main nav .item ul li:last-child{
+    margin-bottom: 0rem;
+}
+footer main nav .item:last-child ul li a{
+    display: flex;
+    align-items: center;
+}
+footer main nav .item:last-child ul li a span{
+    margin-left: 8px;
+}
