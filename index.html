@@ -27,16 +27,17 @@
             <a href="./" class="logo">
                 <img src="./img/logo.svg" alt="">
             </a>
-            <nav class="">
-                <ul>
-                    <li><a href="#s-hero" class="menu-item">Menu-item</a></li>
-                    <li><a href="#s-card-featured" class="menu-item">Menu-item</a></li>
-                    <li><a href="#s-newsletter" class="menu-item">Menu-item</a></li>
-                    <li><a href="#d-footer" class="menu-item">Menu-item</a></li>
+            <nav id="mainNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul class="overlay-content">
+                    <li><a href="#s-hero" class="menu-item">Option 03</a></li>
+                    <li><a href="#s-card-featured" class="menu-item">Option 02</a></li>
+                    <li><a href="#s-newsletter" class="menu-item">Option 03</a></li>
+                    <li><a href="#d-footer" class="menu-item">Option 04</a></li>
                 </ul>
                 <button class="btn-primary">Call to action</button>
             </nav>
-            
+            <button class="menu-item menu-mobile" onclick="openNav()">&#9776;</button>
         </div>
     </header>
 

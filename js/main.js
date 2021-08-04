@@ -1,4 +1,9 @@
 // Function to scale the burguer menu mobile
-function myFunction(x) {
-    x.classList.toggle("change");
-  }
+function openNav() {
+  document.getElementById("mainNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mainNav").style.width = "0%";
+}
+

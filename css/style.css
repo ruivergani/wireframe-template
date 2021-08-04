@@ -35,9 +35,12 @@ header nav ul li:last-child{
 header .menu-mobile{
     display: none;
     cursor: pointer;
+    font-size: 3rem;
+    transition: all .3s;
 }
 header .menu-mobile:hover{
     background-color: #e6ebf2b0;
+    color: black;
 }
 
 
