@@ -11,6 +11,8 @@
 html{
     font-size: 62.5%;
     /* 1.6rem = 16px */
+    scroll-behavior: smooth;
+    scroll-padding: 5.5rem auto;
 }
 img{
     max-width: 100%;

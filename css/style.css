@@ -42,7 +42,9 @@ header .menu-mobile:hover{
     background-color: #e6ebf2b0;
     color: black;
 }
-
+.closebtn{
+    display: none;
+}
 
 /* Style Section Hero */
 section.s-hero{
